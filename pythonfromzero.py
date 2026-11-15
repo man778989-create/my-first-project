@@ -98,3 +98,22 @@ left_seconds = seconds % 60
 print('Hours:', hours)
 print('Minutes:', minutes)
 print('Seconds left:', left_seconds)
+
+#day 4 
+area = int(input('Enter area in rectangle:'))
+perimeter = int(input('Enter perimeter in rectangle:'))
+
+diagonal = (area**2 + perimeter**2)**0.5
+
+print(int(diagonal), 'is the diagonal of rectangle')
+
+#Distance Between Two Points
+x = int(input('Enter first point x:'))
+y = int(input('Enter first point y:'))
+x2 = int(input('Enter second point x:'))
+y2 = int(input('Enter second point y:'))
+
+d = ((x2**2-x**2)+(y2**2-y**2))**0.5
+
+print('Distance between two points:',int(d))
+
